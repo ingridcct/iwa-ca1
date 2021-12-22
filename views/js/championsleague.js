@@ -27,9 +27,9 @@ function calculateBill(idMenuTable) {
     return Math.round(fBillTotal * 100.0) / 100.0;
 };
 // This function either turns on or off the row highlighting for kitpack
-// matches (depending on the value of bShowVeg)
-function highlightkitpack(idTable, bShowVeg) {
-    // if bShowVeg is true, then we're highlighting kitpack
+// matches (depending on the value of bShowMatch)
+function highlightkitpack(idTable, bShowMatch) {
+    // if bShowMatch is true, then we're highlighting kitpack
     //	meals, otherwise we're unhighlighting them.
     var i = 0;
     var oTable = document.getElementById(idTable);
@@ -39,7 +39,7 @@ function highlightkitpack(idTable, bShowVeg) {
     // "kitpack" attribute on it.
     for (i = 0; i < aTRs.length; i++) {
         if (aTRs[i].getAttribute('kitpack') && aTRs[i].getAttribute('kitpack') == "true") {
-            if (bShowVeg) {
+            if (bShowMatch) {
                 aTRs[i].style.backgroundColor = "lightGreen";
             } else {
                 aTRs[i].style.backgroundColor = "";
@@ -63,7 +63,7 @@ window.addEventListener("load", function () {
     document.querySelector("#calcBill").addEventListener("click", function () {
         document.forms[0].txtBillAmt.value = calculateBill('menuTable');
     });
-    document.querySelector("#showVeg").addEventListener("click", function () {
+    document.querySelector("#showMatch").addEventListener("click", function () {
         highlightkitpack('menuTable', this.checked);
     });
 });
@@ -74,7 +74,7 @@ function shopping() {
         
       alert("Order completed!");
         
-      document.getElementById("showVeg").reset();
+      document.getElementById("showMatch").reset();
      
     } else {
       
