@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+  <section name="Group A">
+    <entry>
+      <matches>Real Madrid x Juventus</matches>
+      <price>80.0</price>
+    </entry>
+    <entry>
+      <matches>Milan x Rome F.C</matches>
+      <price>80.0</price>
+    </entry>
+    <entry kitpack="true">
+      <matches>Kit gold Champions League</matches>
+      <price>50.0</price>
+    </entry>
+  </section>
+  <section name="Group B">
+    <entry>
+      <matches>Manchester United x Barcelona</matches>
+      <price>80.0</price>
+    </entry>
+    <entry>
+      <matches>Chelsea x FC Bayern Munich</matches>
+      <price>80.0</price>
+    </entry>
+    <entry kitpack="true">
+      <matches>kit champions league</matches>
+      <price>50.0</price>
+    </entry>
+  </section>
+  <section name="Group C">
+    <entry>
+      <matches>Borussia Dortmund x Paris Saint-Germain F.C.</matches>
+      <price>80.0</price>
+    </entry>
+    <entry>
+      <matches>Liverpool x AFC Ajax</matches>
+      <price>80.0</price>
+    </entry>
+    <entry kitpack="true">
+      <matches>kit champions league</matches>
+      <price>50.0</price>
+    </entry>
+  </section>
+  <section name="Group D">
+    <entry>
+      <matches>Manchester City F.C. x Atalanta B.C.</matches>
+      <price>80.0</price>
+    </entry>
+    <entry>
+      <matches>S.L. Benfica x Sevilla FC</matches>
+      <price>80.0</price>
+    </entry>
+    <entry kitpack="true">
+      <matches>kit champions league</matches>
+      <price>50.0</price>
+    </entry>
+  </section>
+  <section name="Group E">
+    <entry>
+      <matches>FC Porto x Olympique Lyonnais</matches>
+      <price>80.0</price>
+    </entry>
+    <entry>
+      <matches>Atlético de Madrid x FC Salzburg</matches>
+      <price>80.0</price>
+    </entry>
+    <entry kitpack="true">
+      <matches>kit champions league</matches>
+      <price>50.0</price>
+    </entry>
+  </section>
+</menu>
