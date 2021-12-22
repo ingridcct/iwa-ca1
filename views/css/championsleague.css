@@ -46,3 +46,42 @@ th {
             color: #FFF;
 }
 
+
+.filterDiv {
+    float: left;
+    color: #fff;
+    width: 250px;
+    line-height: 22px;
+    text-align: center;
+    margin: 5px;
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+    
+  }
+  
+  iframe { 
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    
+}
+
+.btn {
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+
