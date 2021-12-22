@@ -73,8 +73,8 @@ for (var i = 0; i < btns.length; i++) {
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-matches"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-matches"><a class="nav-link" href="#">Contact us</a></li>
+                        <li class="nav-matches"><a class="nav-link" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-matches"><a class="nav-link" href="contact.html">Contact us</a></li>
                     </ul>
                 </div>
             </div>
@@ -91,7 +91,7 @@ for (var i = 0; i < btns.length; i++) {
         <div class="container">
             <div class="row">
                 <div class="text-center mt-5">
-                    <h1>Tickets</h1>
+                    <h1>Intranet Tickets</h1>
                     <p class="lead">Select your matches from the display below</p>
                 </div>
                 <div id="myBtnContainer">
@@ -118,12 +118,13 @@ for (var i = 0; i < btns.length; i++) {
                     <div class="filterDiv kits">kit champions league</div>
                   </div>
 
-                  
+                  <br>
                 <!-- displaying table xml-->
                 <div id="results" class="col-lg-8 order-2 mb-5"></div>
   
             </div>
         </div>
+        
         <form class="indent">
           <p><input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill">
                  Total: €
@@ -131,9 +132,9 @@ for (var i = 0; i < btns.length; i++) {
                  <input type="checkbox" name="cbOpts" value="isMatch" id="showMatch">
                  <label for="showMatch"> Highlight kitpack</label></p>
                  <input type="reset" value="Reset tickets" onclick="clean()">
-                 <input type="button" value="Shopping" onclick="shopping()">
        </form>
        <br>
+      
           <div class="form-group">
               <select id="section" class="form-control" name="sec_n">
                   <option value="0">Group A</option>
@@ -141,17 +142,17 @@ for (var i = 0; i < btns.length; i++) {
                   <option value="2">Group C</option>
                   <option value="3">Group D</option>
                   <option value="4">Group E</option>
-                  <option value="5">Quarter-Final</option>
+                  <option value="5">Quarter Final</option>
+                  <option value="6">Semi Final</option>
+                  <option value="7">Final</option>
               </select>
               <input id="matches" class="form-control mt-3" type="text" name="matches" placeholder="Matches"/>
               <input id="price" class="form-control mt-3" type="text" name="price" placeholder="Price"/>
-          </div>
-      
+          
       <button id="append" class="btn btn-primary btn-block mt-3" onClick="append()">Submit</button>
       <button id="delete" class="btn btn-danger btn-block">Delete</button>
       <p class="text-muted text-center">To delete an entry, click the required row first</p>
-  
-
+    </div>
         
          
 

@@ -76,28 +76,28 @@
       <price/>
     </entry>
     <entry>
-      <matches></matches>
-      <price></price>
+      <matches/>
+      <price/>
     </entry>
   </section>
-    <section name="Semi Final">
+  <section name="Semi Final">
     <entry>
       <matches/>
       <price/>
     </entry>
     <entry>
-      <matches></matches>
-      <price></price>
+      <matches/>
+      <price/>
     </entry>
   </section>
-      <section name="Final">
+  <section name="Final">
     <entry>
       <matches/>
       <price/>
     </entry>
     <entry>
-      <matches></matches>
-      <price></price>
+      <matches/>
+      <price/>
     </entry>
   </section>
 </menu>

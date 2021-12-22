@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 html {
     position: relative;
     min-height: 100%;
@@ -7,6 +8,7 @@ body {
 /* Margin bottom by footer height */
 margin-bottom: 60px;
 color: #fff;
+font-family: 'Cinzel', serif;
 }
 
 .footer {
@@ -85,3 +87,22 @@ th {
 }
 
 
+#append{
+    background-color: #040741;
+    width: 120px;
+  
+}
+
+#delete {
+    background-color: #6C1D45;
+    width: 120px;
+}
+
+.form-group { 
+    width: 30%;
+    padding-left: 80px;
+}
+
+.indent {
+    padding-left: 80px;
+}
