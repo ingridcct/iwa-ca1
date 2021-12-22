@@ -71,6 +71,33 @@
     </entry>
   </section>
   <section name="Quarter Final">
-    
+    <entry>
+      <matches/>
+      <price/>
+    </entry>
+    <entry>
+      <matches></matches>
+      <price></price>
+    </entry>
+  </section>
+    <section name="Semi Final">
+    <entry>
+      <matches/>
+      <price/>
+    </entry>
+    <entry>
+      <matches></matches>
+      <price></price>
+    </entry>
+  </section>
+      <section name="Final">
+    <entry>
+      <matches/>
+      <price/>
+    </entry>
+    <entry>
+      <matches></matches>
+      <price></price>
+    </entry>
   </section>
 </menu>
